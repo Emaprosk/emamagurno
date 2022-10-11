@@ -1,0 +1,33 @@
+
+
+li{
+    display: inline;
+    
+    list-style: none;
+}
+.triangle-outline{
+    visibility: hidden;
+}
+
+.menu li a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    color: var(--clr);
+    
+    border-radius: 50%;
+    font-size: 1.5em;
+    transition: 2s;
+    cursor: default;
+  }
+  .menu li a:hover{
+    transition: 0s;
+    background: var(--clr);
+    color: #333;
+    box-shadow: 0 0 10px var(--clr),
+    0 0 30px var(--clr),
+    0 0 50px var(--clr);
+    cursor: default;
+  }
