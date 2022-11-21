@@ -1,0 +1,22 @@
+[
+    {
+        "beerTypeId": 1,
+        "description": "IPA"
+    },
+    {
+        "beerTypeId": 2,
+        "description": "APA"
+    },
+    {
+        "beerTypeId": 3,
+        "description": "Honey"
+    },
+    {
+        "beerTypeId": 4,
+        "description": "Tripel"
+    },
+    {
+        "beerTypeId": 5,
+        "description": "Barley Wine"
+    }
+]
