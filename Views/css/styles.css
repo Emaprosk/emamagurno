@@ -27,3 +27,13 @@ html, body {
      font-size: 20px !important; 
      font-weight: bold;
 }
+
+.generalnav{
+     float: right;
+}
+.ulnav{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     list-style: none;
+}

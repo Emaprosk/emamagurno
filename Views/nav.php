@@ -1,16 +1,16 @@
-<nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
+<nav class="generalnav">
      <span class="navbar-text">
-          <strong>LabIV - Segundo Parcial</strong>
+          <strong>Nav Magurno Emanuel</strong>
      </span>
-     <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-               <a class="nav-link" href="">Agregar Cerveza</a>
+     <ul class="ulnav">
+          <li class="linav">
+               <a class="nav-link" href="">Sobre mi</a>
           </li>
-          <li class="nav-item">
-               <a class="nav-link" href="">Listar Cervezas</a>
-          </li>   
-          <li class="nav-item">
-               <a class="nav-link" href="">Cerrar Sesión</a>
+          <li class="linav">
+               <a class="nav-link" href="">Contacto</a>
+          </li>
+          <li class="linav">
+               <a class="nav-link" href="">Estudios y Tecnologias</a>
           </li>        
      </ul>
 </nav>
