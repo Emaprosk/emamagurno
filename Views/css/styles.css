@@ -44,11 +44,13 @@ html, body {
      width: 45%;
 }
 
-img{
-     border-radius: 40%;
-     width: 300px;
-     height: 300px;
-     
+.imgperfil{
+ 
+}
+
+#imgicons{
+     width: 50px;
+     height: 50px;
 }
 
 .ulnav{
@@ -64,4 +66,12 @@ img{
 .linav{
      margin-left: 50px;
      border-radius:10rem;
+}
+
+
+.ulicons{
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: right;
+     list-style: none;
 }
