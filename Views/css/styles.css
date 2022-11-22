@@ -45,7 +45,9 @@ html, body {
 }
 
 .imgperfil{
- 
+     border-radius: 45%;
+     width: 300px;
+     height: 300px;
 }
 
 #imgicons{
@@ -72,6 +74,6 @@ html, body {
 .ulicons{
      display: flex;
      flex-wrap: wrap;
-     justify-content: right;
+     justify-content: center;
      list-style: none;
 }
