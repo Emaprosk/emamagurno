@@ -1,6 +1,6 @@
 <nav class="generalnav">
      <span class="navbar-text">
-          <strong>Nav Magurno Emanuel</strong>
+          <strong style="color: white;">Nav Magurno Emanuel</strong>
      </span>
      <ul class="ulnav">
           <li class="linav">

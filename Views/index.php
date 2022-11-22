@@ -3,13 +3,28 @@
 ?>
 
 
-<main class="d-flex align-items-center justify-content-center height-100" >
+<main>
      <div class="content">
           <header class="text-center">
                <h2></h2>
           </header>
 
-          <form action="<?php echo FRONT_ROOT ?> User/Login" method="post" class="login-form bg-dark-alpha p-5 bg-light">
+          <div class="divpresent">
+               <div class="divtext">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dicta maxime enim,
+                    vitae necessitatibus tempora, impedit quisquam eos debitis, esse similique maiores unde ratione laborum 
+                    ipsum consectetur sed quibusdam. Aliquam?</p>
+               </div>
+               <div class="divimagen">
+                    <img src="<?php echo IMG_PATH?>perfil.jpg" alt="">
+               </div>
+          </div>
+
+
+
+
+
+          <form action="<?php echo FRONT_ROOT ?> User/Login" method="post">
                <div class="form-group">
                     <label for="">Email</label>
                     <input name="email-field" type="text" class="form-control form-control-lg" placeholder="Ingresar usuario" required>
