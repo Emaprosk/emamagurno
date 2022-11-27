@@ -1,35 +1,35 @@
 <?php
      require_once('nav.php');
 ?>
-
-
 <main>
      <div class="content">
           <header class="text-center">
                <h2></h2>
           </header>
 
-          <div class="divpresent">
+          <div class="divcenter">
                <div class="divtext">
-                    <p style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus dicta maxime enim,
-                    vitae necessitatibus tempora, impedit quisquam eos debitis, esse similique maiores unde ratione laborum 
-                    ipsum consectetur sed quibusdam. Aliquam?</p>
+                    <p>Programador y desarrollador Full Stack, multiples conocimientos en la IT, flexibilidad horaria,
+                    leemos lo que tu mente piensa. Llevamos a cabo ese proyecto que tanto deseas, para levantar
+                    tu negocio y llevar al maximo tu rubro.
+
+                    </p>
                </div>
-               <div>
-                    <img id="imgperfil" src="<?php echo IMG_PATH?>perfil.jpg" alt="">
+               <div style="margin-left: 50px;">
+                    <img id="imgperfil" src="<?php echo IMG_PATH?>perfil.jpg" alt="perfil">
                </div>
           </div>
 
 
           <div class="divicons">
-               <div class="divpresent">
+               <div class="divcenter">
                     <h1 style="color: white;">Tecnologies</h1>
                </div>
                <ul class="ulicons">
                     <li class="liicons"><img id="imgicons" src="<?php echo IMG_PATH?>html-5.png" alt=""></li>
                     <li class="liicons"><img id="imgicons" src="<?php echo IMG_PATH?>css-3.png" alt=""></li>
                     <li class="liicons"><img id="imgicons" src="<?php echo IMG_PATH?>php.png" alt=""></li>
-                    <li class="liicons"><img id="imgicons" src="<?php echo IMG_PATH?>js.png" alt=""></li>
+                    <li class="liicons"><img id="imgicons" style="border-radius: 50%;" src="<?php echo IMG_PATH?>js.png" alt=""></li>
                     <li class="liicons"><img id="imgicons" src="<?php echo IMG_PATH?>mysql.png" alt=""></li>
                     <li class="liicons"><img id="imgicons" src="<?php echo IMG_PATH?>letra-c.png" alt=""></li>
                     <li class="liicons"><img id="imgicons" src="<?php echo IMG_PATH?>java.png" alt=""></li>
@@ -39,10 +39,14 @@
                </ul>
           </div>
 
-
-          <div>
-               <form action="" method="post">
+          <div class="divcenter"><h1>Contact</h1></div>
+          <div class="divcenter">
+               <form  method="post">
+                    <input type="text" id="form-content" placeholder="Nombre"><br>
+                    <input type="email" id="form-content" placeholder="Email"><br>
+                    <textarea name="text-area" class="form-menssage" id="" cols="30" rows="10" placeholder="Mensaje" maxlength="500"></textarea><br>
                     
+                    <button type="submit" class="form-submit btn">Enviar</button>
                </form>
           </div>
 

@@ -1,0 +1,49 @@
+.btn{
+    background: #393d3a;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 50px;
+    width: 180px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.btn:first-child:hover{
+    background:
+    linear-gradient(90deg,
+    #07a7f1,#fa46ac,#fae736,#07a7f1);
+    background-size: 400%;
+}
+
+.btn:last-child:hover{
+    background:
+    linear-gradient(90deg,
+    #07a7f1,#fa46ac,#fae736,#07a7f1);
+    background-size: 400%;
+}
+
+
+
+.btn:first-child:hover::before,
+.btn:last-child:hover::before{
+    opacity: 1;
+    z-index: -1;
+}
+
+.btn:hover{
+    z-index: 1;
+    animation: glow 8s linear infinite;
+}
+
+@keyframes glow{
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 400%;
+    }
+}
