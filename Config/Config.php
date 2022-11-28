@@ -3,7 +3,7 @@ namespace Config;
 
 define("ROOT", dirname(__DIR__) . "/");
 //Path to your project's root folder
-define("FRONT_ROOT", "/inicfake/");
+define("FRONT_ROOT", "/emamagurno/");
 define("VIEWS_PATH", "Views/");
 define("CSS_PATH", FRONT_ROOT.VIEWS_PATH . "css/");
 define("IMG_PATH", FRONT_ROOT.VIEWS_PATH . "img/");

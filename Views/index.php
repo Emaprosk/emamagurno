@@ -10,8 +10,10 @@
           <div class="divcenter">
                <div class="divtext">
                     <p>Programador y desarrollador Full Stack, multiples conocimientos en la IT, flexibilidad horaria,
-                    leemos lo que tu mente piensa. Llevamos a cabo ese proyecto que tanto deseas, para levantar
-                    tu negocio y llevar al maximo tu rubro.
+                    domino varios leguanjes de programacion, soy una persona a la que le gusta estar 
+                    siempre en aprendizaje y progresar en mi área laboral.Dispuesto a cumplir cada reto que se me proponga.
+                    Llevamos a cabo ese proyecto que tanto deseas, para levantar
+                    tu negocio y llevar al maximo tu rubro. Para mas info <a href="">Mi Bio</a>
 
                     </p>
                </div>
