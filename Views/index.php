@@ -2,12 +2,8 @@
      require_once('nav.php');
 ?>
 <main>
-     <div class="content">
-          <header class="text-center">
-               <h2></h2>
-          </header>
-
-          <div class="divcenter">
+     <div class="all">
+          <div class="divcenter" >
                <div class="divtext">
                     <p>Programador y desarrollador Full Stack, multiples conocimientos en la IT, flexibilidad horaria,
                     domino varios leguanjes de programacion, soy una persona a la que le gusta estar 

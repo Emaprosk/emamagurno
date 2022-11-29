@@ -10,8 +10,8 @@
     height: 100%;
     width: 100%;
     transform: scale(0.9) translateZ(0);
-    filter: blur(70px);
-    background: linear-gradient(to left,
+    filter: blur(20px);
+    background: linear-gradient(to right,
             #ff5770,
             #e4428d,
             #c42da8,
