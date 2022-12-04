@@ -1,25 +1,33 @@
 <?php
      require_once('nav.php');
 ?>
-<main>
-     <div class="all">
-          <div class="divcenter" >
-               <div class="divtext">
-                    <p>Programador y desarrollador Full Stack, multiples conocimientos en la IT, flexibilidad horaria,
-                    domino varios leguanjes de programacion, soy una persona a la que le gusta estar 
-                    siempre en aprendizaje y progresar en mi área laboral.Dispuesto a cumplir cada reto que se me proponga.
-                    Llevamos a cabo ese proyecto que tanto deseas, para levantar
-                    tu negocio y llevar al maximo tu rubro. Para mas info <a href="">Mi Bio</a>
-
-                    </p>
-               </div>
-               <div style="margin-left: 50px;">
+<main id="all-body">
+     <div class="container">
+          <div class="divcenter" style="margin-top: 150px;">
+               <div style="">
                     <img id="imgperfil" src="<?php echo IMG_PATH?>perfil.jpg" alt="perfil">
+               </div>
+          </div>
+          <div class="divcenter" style="margin-top: 100px;">
+               <div class="">
+                    <div class="mx-auto text-center" style="width: 60%;">
+                         <h1>Web Developer</h1>
+                         <p class="mt-5">-Programador y desarrollador Full Stack, multiples conocimientos en la IT,
+                         domino varios leguanjes de programacion. Dispuesto a cumplir cada reto que se me proponga.<br>
+                         <p>-Llevo a cabo ese proyecto que tanto deseas, para levantar 
+                         tu negocio y llevar al maximo tu rubro.</p>
+                         <p>-Con la facilidad de crear una aplicacion tanto a nivel Web Site 
+                         o como Software.</p>
+                         
+                         Para mas info <a href="">Mi Bio</a>
+
+                         </p>
+                    </div>
                </div>
           </div>
 
 
-          <div class="divicons">
+          <div class="divicons" style="margin-top: 150px;">
                <div class="divcenter">
                     <h1 style="color: white;">Tecnologies</h1>
                </div>
@@ -37,17 +45,15 @@
                </ul>
           </div>
 
-          <div class="divcenter"><h1>Contact</h1></div>
+          <div class="divcenter" style="margin-top: 100px;"><h1>Contact</h1></div>
           <div class="divcenter">
-               <form  method="post">
-                    <input type="text" id="form-content" placeholder="Nombre"><br>
-                    <input type="email" id="form-content" placeholder="Email"><br>
-                    <textarea name="text-area" class="form-menssage" id="" cols="30" rows="10" placeholder="Mensaje" maxlength="500"></textarea><br>
+               <form action="<?php echo FRONT_ROOT?>Home/sendMail" method="post">
+                    <input name="name" type="text" id="form-content" placeholder="Nombre"><br>
+                    <input name="email" type="email" id="form-content" placeholder="Email"><br>
+                    <textarea name="textarea" class="form-menssage" cols="30" rows="10" placeholder="Mensaje" maxlength="500"></textarea><br>
                     
                     <button type="submit" class="form-submit btn">Enviar</button>
                </form>
           </div>
-
-          
      </div>
 </main>
