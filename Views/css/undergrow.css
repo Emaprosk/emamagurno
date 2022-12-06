@@ -8,9 +8,9 @@
     content: "";
     z-index: -1;
     height: 100%;
-    width: 100%;
-    transform: scale(0.9) translateZ(0);
-    filter: blur(30px);
+    width:100%;
+    transform: scale(1) translateZ(0);
+    filter: blur(20px);
     background: linear-gradient(to right,
             #ff5770,
             #e4428d,
