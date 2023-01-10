@@ -15,4 +15,3 @@ RUN sed -i -e "s/var\/www/app/g" /etc/apache2/apache2.conf && sed -i -e "s/html/
 # Copies your code to the image
 COPY . /app  
 
-EXPOSE 80
