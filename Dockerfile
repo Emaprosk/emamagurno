@@ -15,5 +15,4 @@ RUN sed -i -e "s/var\/www/app/g" /etc/apache2/apache2.conf && sed -i -e "s/html/
 # Copies your code to the image
 COPY . /app  
 
-# Sets permissions for the web user
-RUN chown -R www-data:www-data
+EXPOSE 80
