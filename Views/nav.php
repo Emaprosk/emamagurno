@@ -9,7 +9,7 @@
           <a class="nav-link" aria-current="page" href="#">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Sobre mi</a>
+          <a class="nav-link" href="#">Mis Projectos</a>
         </li>
         <li>
           <a class="nav-link" href="<?php echo FRONT_ROOT?>Data\CV Emanuel Magurno.pdf"

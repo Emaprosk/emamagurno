@@ -12,12 +12,14 @@
 
      <link rel="stylesheet" href="<?php echo CSS_PATH?>btn.css">
 
-     
+     <link rel="icon" href="<?php echo IMG_PATH?>html-5.png">
+
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
      
      <title>Home</title>
      
 </head>
-<body class="bg-dark" id="bodu">
+<body class="bg-dark">
      
      
          

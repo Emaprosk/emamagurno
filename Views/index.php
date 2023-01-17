@@ -4,7 +4,7 @@
 <main id="all-body">
      <div class="container">
           <div class="divcenter" style="margin-top: 150px;">
-               <div style="">
+               <div>
                     <img id="imgperfil" src="<?php echo IMG_PATH?>perfil.jpg" alt="perfil">
                </div>
           </div>
@@ -29,7 +29,7 @@
 
           <div class="divicons" style="margin-top: 150px;">
                <div class="divcenter">
-                    <h1 style="color: white;">Tecnologies</h1>
+                    <h1 style="color: white;">Tecnologias</h1>
                </div>
                <ul class="ulicons">
                     <li class="liicons"><img id="imgicons" src="<?php echo IMG_PATH?>html-5.png" alt=""></li>
@@ -45,7 +45,7 @@
                </ul>
           </div>
 
-          <div class="divcenter" style="margin-top: 100px;"><h1>Contact</h1></div>
+          <div class="divcenter" style="margin-top: 100px;"><h1>Contacto</h1></div>
           <div class="divcenter">
                <form action="<?php echo FRONT_ROOT?>Home/sendMail" method="post">
                     <input name="name" type="text" id="form-content" placeholder="Nombre"><br>
