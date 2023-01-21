@@ -19,6 +19,12 @@
         }
 
         public function sendMail($name, $email, $textarea){
+            echo $name;
+            echo $email;
+            echo $textarea;
+        }
+
+        /*
             $header = 'From: ' . $email . " \r\n";
             $header .= "X-Mailer: PHP/" . phpversion() . " \r\n";
             $header .= "Mime-Version: 1.0  \r\n";
@@ -33,6 +39,6 @@
             mail("papamagu-@hotmail.com","Web Port Folio",utf8_decode($message),$header);
 
             header("location:".FRONT_ROOT."Home/Index");
-        }
+        */
     }
 ?>

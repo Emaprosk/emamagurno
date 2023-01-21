@@ -12,11 +12,8 @@ p{
 }
 
 h1{
-     --fontSize: 60px;
-     height: calc(2 * var(--lineHeight));
-     line-height: var(--lineHeight);
-     margin: calc(50vh - var(--lineHeight)) auto 0;
-     font-size: var(--fontSize);
+     text-align: center;
+     font-size: 50px;
      font-family: 'Montserrat', sans-serif;
 }
 
@@ -71,8 +68,7 @@ h1{
      font-size: 25px;
 }
 
-#imgperfil{
-     margin-left: 15%;
+.imgperfil{
      border-radius: 50%;
      width: 70%;
      height: auto;
